@@ -17,7 +17,7 @@
 
 ### Insert from beginning
 
-```java
+``` java
 
 
 Node newnode = new Node();
@@ -38,7 +38,7 @@ head = newnode; // changes head
 ```
 
 ### Insert at the end
-```java
+``` java
 Node newnode = new Node(data)
 
 Node last = head;

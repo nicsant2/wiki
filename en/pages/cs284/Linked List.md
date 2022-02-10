@@ -27,20 +27,20 @@ for (Node x = first; x ! = null; x = x.next){
 ## Remove Element from a linked list
 ### From Beginning
 - point the head to the second element in the linked list, skipping the first
-```java
+``` java
 
 first = first.next;
 
 ```
 ### From the end
 - point the second to last element to Null, skipping the last element
-```java
+``` java
 secondToLast = null;
 ```
 
 ## adding elements
 ### From Beginning
-```java 
+``` java 
 Node oldFirst = first
 first = new Node();
 first.item = "item";
@@ -48,7 +48,7 @@ first.next = oldFirst; // oldFirst is the original first element
 ```
 - renaming elements might be necessary for cleaner code
 ### From End
-```java
+``` java
 
 Node oldLast = last
 last = new Node();
@@ -58,7 +58,7 @@ last.next = null;
 ```
 ### From the Middle
 
-```java
+``` java
 
 newnode.next = previousnode.next;
 
