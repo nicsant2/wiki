@@ -1,0 +1,2 @@
+- contiguous data structure
+- does not work if there is not a contiguous section of free memory to store the list

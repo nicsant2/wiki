@@ -20,7 +20,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[Cal X](pages/wiki/calxlander.md)
+[CS 284](pages/wiki/cs284lander.md)
 [CS 135](pages/wiki/cs135lander.md)
 
 <!-- A more complex navigation example: ----------------------------------------
