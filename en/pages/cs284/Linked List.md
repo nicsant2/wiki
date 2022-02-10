@@ -1,6 +1,6 @@
 
 ## Definition
-- a recursive data structure that is either empty null or a reference to a node having generic item and a reference to a linked list
+- a recursive data structure that is either empty null or a reference to a [Nodes](Nodes.md) having generic item and a reference to a linked list
 ## Linked List 
 - linear data structure, but not contiguous
 - starts with a head and ends with a null
@@ -14,7 +14,7 @@
 ## Traverse
 - assuming you have a node class with <mark style="background: #D2B3FFA6;">Node.item</mark> and the <mark style="background: #D2B3FFA6;">Node.next</mark> 
 
-```java
+``` java
 
 for (Node x = first; x ! = null; x = x.next){
 	// process x.item

@@ -16,4 +16,4 @@
 ### Solution
 - each element has a reference to the next element
 	- order in memory does not matter
-[[Nodes]]
+	- [Nodes](Nodes.md)
